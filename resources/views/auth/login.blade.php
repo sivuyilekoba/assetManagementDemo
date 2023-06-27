@@ -33,7 +33,11 @@
 
             </div>
             <div class="col-md-4 col-sm-12 frm-container">
-                <img src="images/logo2.png">
+                {{-- <img src="images/assetlogo.png" class="img-fluid"> --}}
+                <h3><span style="color: red">BUSINESS LOGO</span> <span style="color: aliceblue">|</span>
+                    <span style="color: rgb(71, 71, 221)">BUSINESS
+                        NAME</span>
+                </h3><br />
                 <form method="POST" action="{{ route('login') }}">
                     @csrf
                     <div class="form-group">

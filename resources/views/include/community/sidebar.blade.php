@@ -97,7 +97,7 @@
             <li class="treeview {{ request()->segment(2) == 'stats' ? 'active' : '' }}">
                 <a href="#">
                     <i class="fa fa-pie-chart"></i>
-                    <span>Statistics</span>
+                    <span>Geography</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
